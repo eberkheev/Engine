@@ -1,3 +1,0 @@
-[submodule "engine_tests/libs"]
-	path = engine_tests/libs
-	url = https://github.com/google/googletest
