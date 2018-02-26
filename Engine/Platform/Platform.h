@@ -14,4 +14,8 @@ typedef Types::int32 int32;
 typedef Types::int64 int64;
 
 typedef Types::wchar wchar;
-typedef Types::size_t size_t;
+
+typedef Types::ptr ptr;
+typedef Types::uptr uptr;
+typedef Types::size size;
+typedef Types::usize usize;

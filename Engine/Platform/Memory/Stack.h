@@ -1,16 +1,16 @@
 #pragma once
 
-#include "../Platform.h"
-
 template <class T, class Container>
 class Stack
 {
+protected:
+    Container container;
 public:
-	Stack(size_t size){}
-	~Stack(){}
+    Stack() : container() {};
+    ~Stack() : ~container() = default;
 
-	T Peek(){}
-	void Push(T value){}
-	T Pop(){}
-	bool isEmpty() const {}
+    bool empty() const { return container.empty(); }
+    T* top() { return container.top(); }
+    void push(const T& value) { container.push(value); }
+    void pop() { container.pop(); }
 };
