@@ -1,14 +1,17 @@
+#pragma once
 
-#ifndef ENGINE_PLATFORM_H
-#define ENGINE_PLATFORM_H
+#include "Types/Types.h"
+#include "Memory/Overloads.h"
 
-class Platform
-{
-public:
-	Platform() = default;
+typedef Types::uint8 uint8;
+typedef Types::uint16 uint16;
+typedef Types::uint32 uint32;
+typedef Types::uint64 uint64;
 
-private:
+typedef Types::int8 int8;
+typedef Types::int16 int16;
+typedef Types::int32 int32;
+typedef Types::int64 int64;
 
-};
-
-#endif //ENGINE_PLATFORM_H
+typedef Types::wchar wchar;
+typedef Types::size_t size_t;

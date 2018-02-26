@@ -1,4 +1,7 @@
+#include "Platform/Platform.h"
+
 int main()
 {
-	return 0;
+	uint8 result = 0;
+	return result;
 }
